@@ -11,12 +11,12 @@ The Score Manager Plugin for SEO Panel makes it possible to control the factors 
 The Score Manager Plugin has three main Features
 
 1. Activate/Deactivate score factors
-    a.Deactivate any score factors that you don't want to affect your scoring
+    * Deactivate any score factors that you don't want to affect your scoring
 2. Adjust factor weighting
-    a.Give each scoring factor it's own weight.
-    b.The higher the weight, the more influence it will have on the score.
+    * Give each scoring factor it's own weight.
+    * The higher the weight, the more influence it will have on the score.
 3. Adjust factor settings
-    a.Change the settings used to determine what score a page gets for each factor
+    * Change the settings used to determine what score a page gets for each factor
 
 ##Installation
 
