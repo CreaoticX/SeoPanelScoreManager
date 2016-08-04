@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<author>Cory Fritsch</author>
+	<label>Score Manager Plugin</label>
+	<description>Allows you to adjust settings and weighting for individual SEO factors</description>
+	<version>1.0.0</version>
+</plugin>
