@@ -43,9 +43,11 @@ if(!class_exists("ScoreManager")){
                     foreach($scores as $n => $m){
                         if(!empty($m) && key_exists($n, $info)){
                             foreach ($info[$n] as $k => $v){
-                                $get_weight = $m[$k]->get_weight();
-                                if(key_exists($k, $m) && $get_weight != v){
-                                    $m[$k]->save_weight($v);
+                                if(key_exists($k, $m)){
+                                    $get_weight = $m[$k]->get_weight();
+                                    if($get_weight != v){
+                                        $m[$k]->save_weight($v);
+                                    }
                                 }
                             }
                         }
