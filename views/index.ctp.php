@@ -3,13 +3,13 @@
     <form id='score_weights'>
     <input type="hidden" value="update" name="sec">
     <input type="hidden" value="<?php echo PLUGIN_ID; ?>" name="pid">
-<table width="80%" border="0" cellspacing="0" cellpadding="0" class="list">
 
         <?php 
         global $scores;
         foreach($scores as $n => $m){
             if(!empty($m)){
                 $i = 0;?>
+<table width="80%" border="0" cellspacing="0" cellpadding="0" class="list">
                 <tr class="listHead">
                         <td class="left" width='30%'><?php echo ucfirst($n) . " scores<br>"; ?></td>
                         <td class="right">&nbsp;</td>
